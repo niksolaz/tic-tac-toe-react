@@ -1,0 +1,41 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    .game-info {
+        div {
+            margin-left: 20px;
+            margin-top: 50px;
+            padding-left: 20px;
+        }
+        h3 {
+            color: #43a8db;
+        }
+        ol {
+            list-style-type: none;
+            li {
+                button {
+                    font-size: 18px;
+                    width: 170px;
+                    color: #43a8db;
+                    background-color: #000;
+                    border: 1px solid #43a8db;
+                    text-align: left;
+                    margin-top: 1px;
+                }
+            }
+        }
+    }
+    h1 {
+        color: #69c6f4;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    h6 {
+        color: #69c6f4;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 50px;
+    }
+}
